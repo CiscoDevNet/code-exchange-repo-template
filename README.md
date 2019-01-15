@@ -1,4 +1,5 @@
 # Cisco DevNet Code Template
+
 This repository is a template to be used when creating a new repository containing sample code, a sample application, or some other software related to Cisco technologies and to be made available for use by the Cisco DevNet community.
 
 ## Instructions
@@ -7,8 +8,9 @@ This repository is a template to be used when creating a new repository containi
 2. Copy these files into the new repository.
 3. Update the [README](./README.md), replacing the contents below as prescribed.
 4. If working with an existing code base, answer the questions on the [CHECKLIST](./CHECKLIST.md)
-5. Delete these instructions and everything up to the _Project Title_ from the README.
-6. Write some great software and tell people about it.
+5. Update/Replace the existing [LICENSE](./LICENSE) as appropriate for your code.
+6. Delete these instructions and everything up to the _Project Title_ from the README.
+7. Write some great software and tell people about it.
 
 ----
 
@@ -28,12 +30,14 @@ Other things to include:
 
 ## Dependencies
 
-Describe any dependencies that must be installed for this code to work. This includes programming languages, databases or other storage mechanisms, build tools, frameworks, and so forth.
+Describe any dependencies that must be installed for this code to work. 
+This includes programming languages, databases or other storage mechanisms, build tools, frameworks, and so forth.
 If specific versions of other software are required, or known not to work, call that out.
 
 ## Installation
 
-Detailed instructions on how to install, configure, and get the project running. This should be frequently tested to ensure reliability.
+Detailed instructions on how to install, configure, and get the project running. 
+This should be frequently tested to ensure reliability.
 
 ## Configuration
 
@@ -51,7 +55,8 @@ If the code includes automated tests, detail how to run those tests.
 
 ## Known issues
 
-Document any known significant shortcomings with the code. If using the [Issue Tracker](./issues), make that known here and provide any templates or conventions to be followed when opening a new issue. 
+Document any known significant shortcomings with the code. 
+If using the issue tracker, state that here and provide any templates or conventions to be followed when opening a new issue. 
 
 ## Getting help
 
@@ -59,7 +64,7 @@ Instruct users how to get help with this code; this might include links to an is
 
 **Example**
 
-If you have questions, concerns, bug reports, etc., please file an issue in this repository's [Issue Tracker](./issues).
+If you have questions, concerns, bug reports, etc., please file an issue in this repository's issue tracker.
 
 ## Getting involved
 
@@ -67,14 +72,9 @@ This section should detail why people should get involved and describe key areas
 
 General instructions on _how_ to contribute should be stated with a link to [CONTRIBUTING](./CONTRIBUTING.md).
 
-
-----
-
 ## Licensing info
+
 See [LICENSE](./LICENSE) for details.
-
-
-----
 
 ## Credits and references
 
