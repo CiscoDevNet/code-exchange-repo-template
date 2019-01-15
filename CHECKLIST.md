@@ -1,10 +1,9 @@
-# <span style="color:green;font-size:150%">&#x2713;</span> Sample Source Check List
+# <span style="color:green;font-size:150%">&#x2713;</span> CIsco DevNet Code Check List
 
 Prior to releasing a project to GitHub.com, walk through these items and ensure they are addressed.
 
 - **Has PII been removed?**
   - Use [Clouseau](https://github.com/virtix/clouseau) for scanning source code.
-    - For an Open Source Release, attach the Clouseau output.
   - If there are images, ensure images are public domain or Creative Commons licensed.
 
 - **Have security vulnerabilities been remediated?**
@@ -12,23 +11,15 @@ Prior to releasing a project to GitHub.com, walk through these items and ensure 
   - [National Vulnerability Database](http://nvd.nist.gov/)
   - [SANS Swat Checklist](http://www.securingthehuman.org/developer/swat)
 
-- **Are we including any other open source products? If so, is there any conflict with our license?**
+- **Are we including any other license code? If so, is there any conflict with our license and have we complied with all terms?**
 
-- **Does the source code have an appropriate open source license `LICENSE.md`?**
-  - We're in the process of updating for the appropriate license.
+- **Does the source code have an appropriate license `LICENSE`?**
 
-- **Does the source code have Cisco copyright notices & disclaimers in the header?**
+- **Does the source code have copyright notices & license info in headers of source code files?**
 
 - **Are instructions for contributing included (`CONTRIBUTING.md`)?**
 
 - **Are installation instructions clearly written in the `README.md` _and_ tested on a clean machine?**
-
-- **Does the source code have a `README.md` with sections including: Prerequisites, Running, Tests?**
-
-- **Does the source code have a `CHANGELOG.md`?**
-  - Use the [Keep a Changlog](http://keepachangelog.com/): Added, Changed, Fixed, Removed
-
-- **Are all dependencies described in the `README`, `requirements.txt`, and/or `package.json`?**
 
 - **Are there unit tests?**
 
@@ -36,7 +27,7 @@ Prior to releasing a project to GitHub.com, walk through these items and ensure 
 
 - **Have multiple people reviewed the code?**
 
-- **Can the dev evangelist get the code running in around 15 minutes?**
+- **Can a developer get the code running in around 15 minutes?**
 
 - **Have you provided helpful comments in the source code that aid in learning?**
 
@@ -46,18 +37,15 @@ Prior to releasing a project to GitHub.com, walk through these items and ensure 
 ~~~
 - [ ] **Has PII been removed?**
 - [ ] **Have security vulnerabilities been remediated?**
-- [ ] **Are we including any other open source products? If so, is there any conflict with our license?**
-- [ ] **Does the source code have an appropriate open source license `LICENSE.md`?**
-- [ ] **Does the source code have Cisco copyright notices & disclaimers in the header?**
+- [ ] **Are we including any other license code? If so, is there any conflict with our license and have we complied with all terms?**
+- [ ] **Does the source code have an appropriate open source license `LICENSE`?**
+- [ ] **Does the source code have copyright notices & license info in headers of source code files?**
 - [ ] **Are instructions for contributing included (`CONTRIBUTING.md`)?**
 - [ ] **Are installation instructions clearly written in the `README.md` _and_ tested on a clean machine?**
-- [ ] **Does the source code have a `README.md` with sections including: Prerequisites, Running, Tests?**
-- [ ] **Does the source code have a `CHANGELOG.md`?**
-- [ ] **Are all dependencies described in the `README`, `requirements.txt`, and/or `package.json`?**
 - [ ] **Are there unit tests?**
 - [ ] **If appplicable and possible, is it set up in TravisCI?**
 - [ ] **Have multiple people reviewed the code?**
-- [ ] **Can the dev evangelist get the code running in around 15 minutes?**
+- [ ] **Can a developer get the code running in around 15 minutes?**
 - [ ] **Have you provided helpful comments in the source code that aid in learning?**
 ~~~
 
