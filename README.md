@@ -1,15 +1,14 @@
 # Cisco DevNet Code Template
-This repository is a template to be used when creating a new repository containing sample code, a sample application, or some other software related to Cisco technologies and to be made available for use to the Cisco DevNet community.
+This repository is a template to be used when creating a new repository containing sample code, a sample application, or some other software related to Cisco technologies and to be made available for use by the Cisco DevNet community.
 
 ## Instructions
 
 1. Create a new repository.
 2. Copy these files into the new repository.
 3. Update the [README](./README.md), replacing the contents below as prescribed.
-4. Add any libraries, assets, or hard dependencies whose source code will be included in the project's repository to the _Exceptions_ section in the [TERMS](./TERMS.md). If no exceptions are needed, remove that section from TERMS.
-5. If working with an existing code base, answer the questions on the [CHECKLIST](./CHECKLIST.md)
-6. Delete these instructions and everything up to the _Project Title_ from the README.
-7. Write some great software and tell people about it.
+4. If working with an existing code base, answer the questions on the [CHECKLIST](./CHECKLIST.md)
+5. Delete these instructions and everything up to the _Project Title_ from the README.
+6. Write some great software and tell people about it.
 
 ----
 
@@ -23,6 +22,8 @@ Other things to include:
 * **Status**:  Alpha, Beta, 1.1, etc. It's OK to write a sentence, too. The goal is to let interested people know where what they can expect from this code.
 * **Screenshot**: If the code has visual components, place a screenshot after the description; e.g.,
 
+![add-image-here]()
+
 
 
 ## Dependencies
@@ -32,7 +33,7 @@ If specific versions of other software are required, or known not to work, call 
 
 ## Installation
 
-Detailed instructions on how to install, configure, and get the project running. This should be frequently tested to ensure reliability. Alternatively, link to a separate [INSTALL](./INSTALL.md) document.
+Detailed instructions on how to install, configure, and get the project running. This should be frequently tested to ensure reliability.
 
 ## Configuration
 
@@ -70,8 +71,7 @@ General instructions on _how_ to contribute should be stated with a link to [CON
 ----
 
 ## Licensing info
-1. [LICENSE](./LICENSE)
-2. [TERMS](./TERMS.md)
+See [LICENSE](./LICENSE) for details.
 
 
 ----
