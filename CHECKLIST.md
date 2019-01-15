@@ -1,4 +1,4 @@
-# <span style="color:green;font-size:150%">&#x2713;</span> CIsco DevNet Code Check List
+# <span style="color:green;font-size:150%">&#x2713;</span> Cisco DevNet Code Checklist
 
 Prior to releasing a project to GitHub.com, walk through these items and ensure they are addressed.
 
