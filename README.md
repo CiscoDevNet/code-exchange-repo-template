@@ -86,7 +86,11 @@ Once you have created the LICENSE file, be sure to update/replace any templated 
 
 `Copyright (c) <YEAR>, <COPYRIGHT HOLDER>`
 
-See the [LICENSE](./LICENSE) for this repo as an example.
+See the [LICENSE](./LICENSE) for this template repo as an example.
+
+Once your LICENSE file exists, you can delete this section of the README, or replace the instructions in this section with a statement of which license you selected and a link to your license file, e.g.
+
+This code is licensed under the BSD 3-Clause License. See [LICENSE](./LICENSE) for details.  
 
 ----
 
