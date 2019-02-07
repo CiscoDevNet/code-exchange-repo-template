@@ -7,7 +7,6 @@ This repository is a template to be used when creating a new repository containi
 2. Copy these files into the new repository.
 3. Update the [README](./README.md), replacing the contents below as described in text within each section of the README.
 4. Update the [LICENSE](./LICENSE), replacing the file with the license selected for your code. See the *Licensing info* section of this README for more info. 
-4. If working with an existing code base, answer the questions on the [CHECKLIST](./CHECKLIST.md)
 5. Delete these instructions and everything up to the _Project Title_ from the README.
 6. Write some great software and tell people about it.
 
@@ -20,7 +19,6 @@ This repository is a template to be used when creating a new repository containi
 Other things to include:
 
 * **Technology stack**: Indicate the technological nature of the code, including primary programming language(s) and whether the code is intended as standalone or as a module in a framework or other ecosystem.
-* **Business Value**: 
 * **Status**:  Alpha, Beta, 1.1, etc. It's OK to write a sentence, too. The goal is to let interested people know where what they can expect from this code.
 * **Screenshot**: If the code has visual components, place a screenshot after the description; e.g.,
 
