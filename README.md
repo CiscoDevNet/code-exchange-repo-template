@@ -1,11 +1,12 @@
-# Cisco DevNet Code Template
-This repository is a template to be used when creating a new repository containing sample code, a sample application, or some other software related to Cisco technologies and to be made available for use by the Cisco DevNet community.
+# Code Exchange Repo Template
+This repository is a template to be used when creating a new repository containing sample code, a sample application, or some other software related to Cisco technologies and to be made available for use by the Cisco DevNet community through Code Exchange.
 
 ## Instructions
 
 1. Create a new repository.
 2. Copy these files into the new repository.
-3. Update the [README](./README.md), replacing the contents below as prescribed.
+3. Update the [README](./README.md), replacing the contents below as described in text within each section of the README.
+4. Update the [LICENSE](./LICENSE), replacing the file with the license selected for your code. See the *Licensing info* section of this README for more info. 
 4. If working with an existing code base, answer the questions on the [CHECKLIST](./CHECKLIST.md)
 5. Delete these instructions and everything up to the _Project Title_ from the README.
 6. Write some great software and tell people about it.
