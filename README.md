@@ -19,6 +19,7 @@ This repository is a template to be used when creating a new repository containi
 Other things to include:
 
 * **Technology stack**: Indicate the technological nature of the code, including primary programming language(s) and whether the code is intended as standalone or as a module in a framework or other ecosystem.
+* **Business Value**: 
 * **Status**:  Alpha, Beta, 1.1, etc. It's OK to write a sentence, too. The goal is to let interested people know where what they can expect from this code.
 * **Screenshot**: If the code has visual components, place a screenshot after the description; e.g.,
 
@@ -71,8 +72,20 @@ General instructions on _how_ to contribute should be stated with a link to [CON
 ----
 
 ## Licensing info
-See [LICENSE](./LICENSE) for details.
 
+A license is required for others to be able to use your code. Choosing a license can be difficult and depend on your goals for your project, other licensed code on which your code depends, your business objectives, etc.   This template does not intend to provide legal advise. You could seek legal council for that. However, in general, less restrictive licenses make your code easier for others to use.
+
+Once you have determined which license is appropriate, GitHub provides functionality that make it easy to add a LICENSE file to a GitHub repo, either when creating a new repo or by adding to an existing repo.
+
+When creating a repo through the GitHub UI, you can click on *Add a license* and select from a set of [common open source licenses] (https://opensource.org/licenses). See [detailed instructions](https://help.github.com/articles/licensing-a-repository/#applying-a-license-to-a-repository-with-an-existing-license).
+
+Once a repo has been created, you can easily add a LICENSE file through the GitHub UI at any time. Simply select *Create New File*, type *LICENSE* into the filename box, and you will be given the option to select from a set of common open source licenses. See [detailed instructions](https://help.github.com/articles/adding-a-license-to-a-repository/).
+
+Once you have created the LICENSE file, be sure to update/replace any templated fields with appropriate information, including the Copyright. For example, the [3-Clause BSD license template](https://opensource.org/licenses/BSD-3-Clause) has the following copyright notice:
+
+`Copyright (c) <YEAR>, <COPYRIGHT HOLDER>`
+
+See the [LICENSE](./LICENSE) for this repo as an example.
 
 ----
 
