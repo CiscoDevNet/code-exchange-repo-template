@@ -14,7 +14,7 @@ This repository is a template to be used when creating a new repository containi
 
 # Project Title
 
-**Description**:  Put a meaningful, short, plain-language description of what this code is trying to accomplish and why it matters.
+**Description**:  Put a meaningful, short, plain-language description of what this code is trying to accomplish and why it matters. Code Exchange displays the first few content lines of your README in the tile it creates for your repo. If you enter a GitHub Description, Code Exchange uses that instead. Code Exchange works best with READMEs formatted in [GitHub's flavor of Markdown](https://guides.github.com/features/mastering-markdown/). Support for reStructuredText is a work in progress.
 
 Other things to include:
 
