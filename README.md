@@ -14,7 +14,7 @@ This repository is a template to be used when creating a new repository containi
 
 # Project Title
 
-Put a meaningful, short, plain-language description of what this code is trying to accomplish and why it matters. 
+Put a meaningful, short, plain-language description of what this code is trying to accomplish, what is the business driver for implementation, and in general why it matters. 
 
 Pro tips: 
 
