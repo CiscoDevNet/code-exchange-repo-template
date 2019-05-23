@@ -46,7 +46,9 @@ If a particular [DevNet Sandbox](https://developer.cisco.com/sandbox/) or [Learn
 
 ## How to test the software
 
-If the code includes automated tests, detail how to run those tests.
+Provide details on steps to test, versions of components/depencencies against which code was tested, date the code was last tested, etc. 
+If the repo includes automated tests, detail how to run those tests.
+If the repo is instrumented with a continuous testing framework, that is even better.
 
 ## Known issues
 
