@@ -1,5 +1,5 @@
 # Code Exchange Repo Template
-This repository is a template to be used when creating a new repository containing sample code, a sample application, or some other software related to Cisco technologies and to be made available for use by the Cisco DevNet community through [Code Exchange](https://developer.cisco.com/codeexchange/).
+This repository is a template to be used when creating a new repository containing sample code, a sample application, or some other software related to Cisco technologies and to be made available for use by the Cisco DevNet community through [Code Exchange](https://developer.cisco.com/codeexchange/) and/or [Automation Exchange](https://developer.cisco.com/automation-exchange/).
 
 ## Instructions
 
@@ -8,7 +8,7 @@ This repository is a template to be used when creating a new repository containi
 3. Update the [README](./README.md), replacing the contents below as described in text within each section of the README. Feel free to combine or omit sections where appropriate. 
 4. Update the [LICENSE](./LICENSE), replacing the file with the license selected for your code. See the *Licensing info* section of this README for more info. 
 5. Delete these instructions and everything up to the _Project Title_ from the README.
-6. Write some great software and [submit](https://developer.cisco.com/codeexchange/github/submit) it to Code Exchange.
+6. Write some great software and [submit](https://developer.cisco.com/codeexchange/github/submit) it to Code Exchange and/or Automation Exchange.
 
 ----
 
@@ -32,7 +32,7 @@ Other things you might include:
 
 ## Use Case Description
 
-Describe the problem this code addresses, how your code solves the problem, challenges you had to overcome as part of the solution, and optional ideas you have in mind that could further extend your solution. It is also helpful to mention the primary programming language used in your solution. GitHub tries to determine this for you, but it is not always accurate.
+Describe the problem this code addresses, how your code solves the problem, challenges you had to overcome as part of the solution, and optional ideas you have in mind that could further extend your solution.
 
 ## Installation
 
@@ -64,7 +64,7 @@ Document any significant shortcomings with the code. If using [GitHub Issues](ht
 
 ## Getting help
 
-Instruct users how to get help with this code; this might include links to an issue tracker, wiki, mailing list, etc.
+Instruct users how to get help with this code; this might include links to an issues list, wiki, mailing list, etc.
 
 **Example**
 
@@ -74,14 +74,14 @@ If you have questions, concerns, bug reports, etc., please create an issue again
 
 This section should detail why people should get involved and describe key areas you are currently focusing on; e.g., trying to get feedback on features, fixing certain bugs, building important pieces, etc. Include information on how to setup a development environment if different from general installation instructions.
 
-General instructions on _how_ to contribute should be stated with a link to [CONTRIBUTING](./CONTRIBUTING.md).
+General instructions on _how_ to contribute should be stated with a link to [CONTRIBUTING](./CONTRIBUTING.md) file.
 
 
 ----
 
 ## Licensing info
 
-A license is required for others to be able to use your code. An open source license is more than just a usage license, it is license to contribute and collaborate on code. Open sourcing code and contributing it to [Code Exchange](https://developer.cisco.com/codeexchange/)  requires a commitment to maintain the code and help the community use and contribute to the code. 
+A license is required for others to be able to use your code. An open source license is more than just a usage license, it is license to contribute and collaborate on code. Open sourcing code and contributing it to [Code Exchange](https://developer.cisco.com/codeexchange/) or [Automation Exchange](https://developer.cisco.com/automation-exchange/) requires a commitment to maintain the code and help the community use and contribute to the code. 
 
 Choosing a license can be difficult and depend on your goals for your code, other licensed code on which your code depends, your business objectives, etc.   This template does not intend to provide legal advise. You should seek legal counsel for that. However, in general, less restrictive licenses make your code easier for others to use.
 
