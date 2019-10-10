@@ -30,6 +30,10 @@ Other things you might include:
 ![add-image-here]()
 
 
+## Use Case Description
+
+Describe the problem this code addresses, how your code solves the problem, challenges you had to overcome as part of the solution, and optional ideas you have in mind that could further extend your solution. It is also helpful to mention the primary programming language used in your solution. GitHub tries to determine this for you, but it is not always accurate.
+
 ## Installation
 
 Detailed instructions on how to install, configure, and get the project running. Call out any dependencies. This should be frequently tested and updated to make sure it works reliably, accounts for updated versions of dependencies, etc.
@@ -42,13 +46,17 @@ If the code is configurable, describe it in detail, either here or in other docu
 
 Show users how to use the code. Be specific.
 Use appropriate formatting when showing code snippets or command line output.
-If a particular [DevNet Sandbox](https://developer.cisco.com/sandbox/) or [Learning Lab](https://developer.cisco.com/learning-labs/) can be used in to provide a network or other resources to be used with this code, call that out here. 
+
+### DevNet Sandbox
+
+A great way to make your repo easy for others to use is to provide a link to a [DevNet Sandbox](https://developer.cisco.com/site/sandbox/) that provides a network or other resources required to use this code. In addition to identifying an appropriate sandbox, be sure to provide instructions and any configuration necessary to run your code with the sandbox.
 
 ## How to test the software
 
 Provide details on steps to test, versions of components/dependencies against which code was tested, date the code was last tested, etc. 
 If the repo includes automated tests, detail how to run those tests.
 If the repo is instrumented with a continuous testing framework, that is even better.
+
 
 ## Known issues
 
