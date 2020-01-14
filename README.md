@@ -8,7 +8,7 @@ You have two options, if you have familiarity with Python, use the cookiecutter 
 
 ### Cookiecutter Automated Repo Creation
 
-This process usies [cookiecutter](https://github.com/audreyr/cookiecutter) to auto-generate the files for you. This is helpful if you create multiple use cases. 
+This process uses [cookiecutter](https://github.com/audreyr/cookiecutter) to auto-generate the files for you. This is helpful if you create multiple use cases. 
 
 > Note: This template assumes the BSD 3-Clause License, you can change it be other licenses afterwards if that is not what you want.
 
