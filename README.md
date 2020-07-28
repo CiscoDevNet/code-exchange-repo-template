@@ -63,7 +63,7 @@ If you are only creating one use case, this process is probably easier.
 5. Don’t describe in which format users need to type-in and paste in file API endpoint or server IP. For example some times devs write in code api_endpoint = “https://‘ + IP +‘/’
 So users need to paste the only IP without a slash at the end and protocol specification. Please clarify this information in README
 
-### Best practice
+### Best practices
 1. Store and manage sensitive data
 for scripts: store passwords/API keys and other sensitive data in env.py or parse it as arguments, in Python you can use [ConfigParser](https://docs.python.org/3/library/configparser.html) 
 for applications and programs: encrypt sensitive data in your database
