@@ -51,4 +51,30 @@ If you are only creating one use case, this process is probably easier.
 3. Update the [README](./README.md), replacing the contents below as described in text within each section of the README. Feel free to combine or omit sections where appropriate. 
 4. Update the [LICENSE](./LICENSE), replacing the file with the license selected for your code. See the *Licensing info* section of this README for more info. 
 5. Delete these instructions and everything up to the _Project Title_ from the README.
+<<<<<<< HEAD
 6. Write some great software and [submit](https://developer.cisco.com/codeexchange/github/submit) it to Code Exchange and/or Automation Exchange.
+=======
+6. Write some great software and [submit](https://developer.cisco.com/codeexchange/github/submit) it to Code Exchange and/or Automation Exchange.
+
+**Information below can help you make your repo relevant to our requirements, and more useful**
+
+ ### Bad practices
+1. Use bad quality screenshots
+2. Missed NOTICE file with copyright if you use GPLv3 or Apache 2.0 license 
+3. Users need to rename some files like variables_template.py
+4. Users need to include credentials in source file
+5. Don’t describe in which format users need to type-in and paste in file API endpoint or server IP. For example some times devs write in code api_endpoint = “https://‘ + IP +‘/’
+So users need to paste the only IP without a slash at the end and protocol specification. Please clarify this information in README
+
+### Best practices
+1. Store and manage sensitive data
+for scripts: store passwords/API keys and other sensitive data in env.py or parse it as arguments, in Python you can use [ConfigParser](https://docs.python.org/3/library/configparser.html) 
+for applications and programs: encrypt sensitive data in your database
+2. Write in Installation chapter how to run your script for different OS like Windows/macOS/Linux
+3. Print usage if you run script or program without any input data (support -h -help flags)
+4. Catch an error and print useful information in console and interface
+5. Add error management in case if users miss some parameters or add them in the wrong format
+6. Add links for resources where users can test code/app. Add links DevNet sandbox (Always-on or reservable) all list you can find here [https://devnetsandbox.cisco.com/RM/Topology](https://devnetsandbox.cisco.com/RM/Topology)
+7. Add links where users can download and how to install additional soft/app/libraries that needed to run your code. For example binary, installer to Python, node, etc 
+8. Dockerize app or part of an app like server/client
+>>>>>>> 64eb5a93075f5d0a840053165732b364c958ca91
