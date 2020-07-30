@@ -52,5 +52,3 @@ If you are only creating one use case, this process is probably easier.
 4. Update the [LICENSE](./LICENSE), replacing the file with the license selected for your code. See the *Licensing info* section of this README for more info. 
 5. Delete these instructions and everything up to the _Project Title_ from the README.
 6. Write some great software and [submit](https://developer.cisco.com/codeexchange/github/submit) it to Code Exchange and/or Automation Exchange.
-
- 
