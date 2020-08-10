@@ -62,6 +62,11 @@ This section should detail why people should get involved and describe key areas
 
 General instructions on _how_ to contribute should be stated with a link to [CONTRIBUTING](./CONTRIBUTING.md) file.
 
+## Credits and references
+
+1. Projects that inspired you
+2. Related projects
+3. Books, papers, talks, or other sources that have meaningful impact or influence on this code
 
 ----
 
@@ -95,30 +100,24 @@ In the event you make use of 3rd party code, it is required by some licenses, an
 
 ----
 
-## Credits and references
+## Best practices
 
-1. Projects that inspired you
-2. Related projects
-3. Books, papers, talks, or other sources that have meaningful impact or influence on this code
+**Information below can help you make your repo meet our requirements and be more useful to others.**
 
-**Information below can help you make your repo relevant to our requirements, and more useful**
+### Good practices
 
-### Best practices
-1. Store and manage sensitive data
-for scripts: store passwords/API keys and other sensitive data in env.py or parse it as arguments, in Python you can use [ConfigParser](https://docs.python.org/3/library/configparser.html) 
-for applications and programs: encrypt sensitive data in your database
-2. Write in Installation chapter how to run your script for different OS like Windows/macOS/Linux
+1. Manage sensitive data for scripts. For example, store passwords/API keys and other sensitive data in env.py or parse it as arguments. In Python, you can use [ConfigParser](https://docs.python.org/3/library/configparser.html) for applications and programs: encrypt sensitive data in your database.
+2. Include in Installation section how to run your script for different OS like Windows/macOS/Linux
 3. Print usage if you run script or program without any input data (support -h -help flags)
 4. Catch an error and print useful information in console and interface
-5. Add error management in case if users miss some parameters or add them in the wrong format
-6. Add links for resources where users can test code/app. Add links DevNet sandbox (Always-on or reservable) all list you can find here [https://devnetsandbox.cisco.com/RM/Topology](https://devnetsandbox.cisco.com/RM/Topology)
-7. Add links where users can download and how to install additional soft/app/libraries that needed to run your code. For example binary, installer to Python, node, etc 
+5. Add error management to handle if users miss some parameters or add them in the wrong format
+6. Add links for resources where users can test code/app. For example, add links DevNet sandboxs (Always-on or reservable). You can find a list of all available sandboxes here [https://devnetsandbox.cisco.com/RM/Topology](https://devnetsandbox.cisco.com/RM/Topology)
+7. Add links where users can download and how to install additional soft/app/libraries that are needed to run your code. For example, installer for Python, node, etc. 
 8. Add NOTICE file with copyright if you use GPLv3 or Apache 2.0 license ([sample](https://github.com/CiscoDevNet/opendaylight-sample-apps/blob/master/NOTICE)) 
-9. Dockerize app or part of an app like server/client
+9. Dockerize app or part of an app, like a server/client
 
  ### Bad practices
 1. Use bad quality screenshots
 3. Users need to rename some files like variables_template.py
 4. Users need to include credentials in source file
-5. Don’t describe in which format users need to type-in and paste in file API endpoint or server IP. For example some times devs write in code api_endpoint = “https://‘ + IP +‘/’
-So users need to paste the only IP without a slash at the end and protocol specification. Please clarify this information in README
+5. Don’t describe in which format users need to type or paste in file API endpoint or server IP. For example, sometimes devs write in code api_endpoint = “https://" + IP +"/", such that users need to paste the IP only without a slash at the end or a protocol specification. Please clarify this information in README.
