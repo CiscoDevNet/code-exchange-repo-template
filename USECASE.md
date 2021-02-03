@@ -4,7 +4,7 @@
 
 (optional) Describe the use case for Automation Exchange entries here. [DevNet Automation Exchange](https://developer.cisco.com/network-automation/) provides shared code repositories for gathering information from your network, performing audits, activating policy changes, or managing applications, users, or devices. This file serves as a template to collect related links for Automation Exchange submissions.
 
-Use GitHub Markdown formatting in this file. 
+Use [GitHub Flavored Markdown](https://github.github.com/gfm/) formatting in this file. 
 
 ## White Paper
 Provide links to related white papers:
@@ -12,7 +12,7 @@ Provide links to related white papers:
 
 ## Related Sandbox
 Provide a link to a related DevNet Sandbox:
-[CHANGE EXAMPLE SANDBOX Catalyst 9800 Wireless LAN Controller](https://devnetsandbox.cisco.com/RM/Diagram/Index/9900a725-c584-42ae-8d51-3ac87533c5c5?diagramType=Topology)
+[CHANGE EXAMPLE SANDBOX Multi-IOS Cisco Test Network Sandbox](https://devnetsandbox.cisco.com/RM/Diagram/Index/6b023525-4e7f-4755-81ae-05ac500d464a?diagramType=Topology)
 
 ## Links to DevNet Learning Labs
 Provide links to related Learning Labs or modules on DevNet:

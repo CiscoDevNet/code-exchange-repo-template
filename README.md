@@ -30,7 +30,7 @@ project_description [baseline DevNet Code Exchange Project]: New Things to come!
 author_name [Your Name Here]: User Name
 author_email [youremail@domain.com]: user@cisco.com
 use-cases$ tree
-.DS_Store                          devnet-code-exchange/              my-first-project/
+devnet-code-exchange/              my-first-project/
 cookiecutter-devnet-code-exchange/ 
 use-cases$ tree my-first-project/
 my-first-project/
