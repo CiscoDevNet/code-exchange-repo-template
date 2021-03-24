@@ -115,6 +115,7 @@ for applications and programs: encrypt sensitive data in your database
 7. Add links where users can download and how to install additional soft/app/libraries that needed to run your code. For example binary, installer to Python, node, etc 
 8. Add NOTICE file with copyright if you use GPLv3 or Apache 2.0 license ([sample](https://github.com/CiscoDevNet/opendaylight-sample-apps/blob/master/NOTICE)) 
 9. Dockerize app or part of an app like server/client
+10. Create a useful Readme title (for example write 'Devicebanner, update the banner motd on a network device' instead of 'devicebanner'). At the top of the `Readme.md` file add a hash symbol and Usecase Name
 
  ### Bad practices
 1. Use bad quality screenshots
