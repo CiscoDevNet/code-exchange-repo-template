@@ -107,18 +107,18 @@ In the event you make use of 3rd party code, it is required by some licenses, an
 ### Good practices
 
 1. Manage sensitive data for scripts. For example, store passwords/API keys and other sensitive data in env.py or parse it as arguments. In Python, you can use [ConfigParser](https://docs.python.org/3/library/configparser.html) for applications and programs: encrypt sensitive data in your database.
-2. Include in Installation section how to run your script for different OS like Windows/macOS/Linux
-3. Print usage if you run script or program without any input data (support -h -help flags)
-4. Catch an error and print useful information in console and interface
-5. Add error management to handle if users miss some parameters or add them in the wrong format
-6. Add links for resources where users can test code/app. For example, add links DevNet sandboxs (Always-on or reservable). You can find a list of all available sandboxes here [https://devnetsandbox.cisco.com/RM/Topology](https://devnetsandbox.cisco.com/RM/Topology)
-7. Add links where users can download and how to install additional soft/app/libraries that are needed to run your code. For example, installer for Python, node, etc. 
-8. Add NOTICE file with copyright if you use GPLv3 or Apache 2.0 license ([sample](https://github.com/CiscoDevNet/opendaylight-sample-apps/blob/master/NOTICE)) 
-9. Dockerize app or part of an app like server/client
-10. Create a useful Readme title (for example write 'Devicebanner, update the banner motd on a network device' instead of 'devicebanner'). At the top of the `Readme.md` file add a hash symbol and Usecase Name
+2. Include in Installation section how to run your script for different OS like Windows/macOS/Linux.
+3. Print usage if you run script or program without any input data (support -h -help flags).
+4. Catch an error and print useful information in console and interface.
+5. Add error management to handle if users miss some parameters or add them in the wrong format.
+6. Add links for resources where users can test code/app. For example, add links DevNet sandboxs (Always-on or reservable). You can find a list of all available sandboxes here [https://devnetsandbox.cisco.com/RM/Topology](https://devnetsandbox.cisco.com/RM/Topology).
+7. Add links where users can download and how to install additional soft/app/libraries that are needed to run your code. For example, installer for Python, node, and so on. 
+8. Add a NOTICE file with copyright if you use GPLv3 or Apache 2.0 license ([sample NOTICE file](https://github.com/CiscoDevNet/opendaylight-sample-apps/blob/master/NOTICE)).
+9. Dockerize app or part of an app like server/client.
+10. At the top of the `Readme.md` file add a hash symbol and the full use case name to create a useful Readme title. As an example, write `# Devicebanner, updates the banner motd on a network device` instead of just 'devicebanner'. 
 
  ### Bad practices
-1. Use bad quality screenshots
-3. Users need to rename some files like variables_template.py
-4. Users need to include credentials in source file
+1. Use bad quality screenshots.
+3. Users need to rename some files like variables_template.py.
+4. Users need to include credentials in source files.
 5. Don’t describe in which format users need to type or paste in file API endpoint or server IP. For example, sometimes devs write in code api_endpoint = “https://" + IP +"/", such that users need to paste the IP only without a slash at the end or a protocol specification. Please clarify this information in README.
