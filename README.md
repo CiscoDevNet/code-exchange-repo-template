@@ -49,6 +49,6 @@ If you are only creating one use case, this process is probably easier.
 1. Create a new repository.
 2. Copy all the files inside `manual-sample-repo` into your new repository. 
 3. Update the [README](./README.md), replacing the contents below as described in text within each section of the README. Feel free to combine or omit sections where appropriate. 
-4. Update the [LICENSE](./LICENSE), replacing the file with the license selected for your code. See the *Licensing info* section of this README for more info. 
+4. Update the [LICENSE](./LICENSE), replacing the file with the license selected for your code. See the [*Licensing info*](https://github.com/CiscoDevNet/code-exchange-repo-template/tree/master/manual-sample-repo#licensing-info)section of this README for more info. 
 5. Delete these instructions and everything up to the _Project Title_ from the README.
 6. Write some great software and [submit](https://developer.cisco.com/codeexchange/github/submit) it to Code Exchange and/or Automation Exchange.
