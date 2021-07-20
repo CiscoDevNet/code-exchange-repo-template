@@ -6,7 +6,9 @@
  
 ## Use Case Description
 
-Describe the problem this code addresses, how your code solves the problem, challenges you had to overcome as part of the solution, and optional ideas you have in mind that could further extend your solution.
+Summarize the problem statement and solution with outcomes, benefits, and metrics in this section. You can also talk about challenges you had to overcome as part of the solution, and optional ideas you have in mind that could further extend your solution.
+
+For more in-depth descriptions of your business context around the use case, fill in the USECASE.md file. Describe the business problem this code addresses in the Problem Statement section. Provide context and the solution in the Solution section. In the Outcomes section, discuss the benefits, what metrics changed as a result, how long it takes to make progress or gather data. Include images or diagrams that help explain the architecture or technology as it fits into the business or industry. 
 
 ## Installation
 
