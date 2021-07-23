@@ -116,7 +116,7 @@ In the event you make use of 3rd party code, it is required by some licenses, an
 8. Add a NOTICE file with copyright if you use GPLv3 or Apache 2.0 license ([sample NOTICE file](https://github.com/CiscoDevNet/opendaylight-sample-apps/blob/master/NOTICE)).
 9. Dockerize app or part of an app like server/client.
 10. At the top of the `Readme.md` file add a hash symbol and the full use case name to create a useful Readme title. As an example, write `# Devicebanner, updates the banner motd on a network device` instead of just 'devicebanner'. 
-11. If your repo is connected with Cisco SecureX orchestration workflow, please check if your workflow or atomic action conforms to their best practices using [this tool](https://ciscosecurity.github.io/sxo-05-security-workflows/analyzer/)
+11. If your repo is connected with Cisco SecureX orchestration workflow, please check if your workflow or atomic action conforms to their best practices using [this tool](https://ciscosecurity.github.io/sxo-05-security-workflows/analyzer/).
 
  ### Bad practices
 1. Use bad quality screenshots.
