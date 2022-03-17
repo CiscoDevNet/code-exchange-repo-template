@@ -117,6 +117,7 @@ In the event you make use of 3rd party code, it is required by some licenses, an
 9. Dockerize app or part of an app like server/client.
 10. At the top of the `Readme.md` file add a hash symbol and the full use case name to create a useful Readme title. As an example, write `# Devicebanner, updates the banner motd on a network device` instead of just 'devicebanner'. 
 11. If your repo is connected with Cisco SecureX orchestration workflow, please check if your workflow or atomic action conforms to their best practices using [this tool](https://ciscosecurity.github.io/sxo-05-security-workflows/analyzer/).
+12. Use [Scorecard](https://github.com/ossf/scorecard) as an easy way to judge whether dependencies in your open source project are safe.
 
  ### Bad practices
 1. Use bad quality screenshots.
