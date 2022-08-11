@@ -5,7 +5,7 @@ Put a meaningful, short, plain-language description of what this code is trying 
 Pro tips: 
 
 * Code Exchange displays the first few content lines of your README in the tile it creates for your repo. If you enter a GitHub Description, Code Exchange uses that instead. 
-* Code Exchange works best with READMEs formatted in [GitHub's flavor of Markdown](https://guides.github.com/features/mastering-markdown/). Support for reStructuredText is a work in progress.
+* Code Exchange works best with READMEs formatted in [GitHub's flavor of Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). Support for reStructuredText is a work in progress.
 
 Other things you might include:
 
@@ -13,7 +13,7 @@ Other things you might include:
 * Status:  Alpha, Beta, 1.1, etc. It's OK to write a sentence, too. The goal is to let interested people know where what they can expect from this code.
 * Screenshot: If the code has visual components, place a screenshot after the description; e.g.,
 
-![add-image-here]()
+`![add-image-here]()`
 
 
 ## Use Case Description
@@ -46,7 +46,7 @@ If the repo is instrumented with a continuous testing framework, that is even be
 
 ## Known issues
 
-Document any significant shortcomings with the code. If using [GitHub Issues](https://help.github.com/en/articles/about-issues) to track issues, make that known and provide any templates or conventions to be followed when opening a new issue. 
+Document any significant shortcomings with the code. If using [GitHub Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) to track issues, make that known and provide any templates or conventions to be followed when opening a new issue. 
 
 ## Getting help
 
@@ -76,13 +76,13 @@ A license is required for others to be able to use your code. An open source lic
 
 Choosing a license can be difficult and depend on your goals for your code, other licensed code on which your code depends, your business objectives, etc.   This template does not intend to provide legal advise. You should seek legal counsel for that. However, in general, less restrictive licenses make your code easier for others to use.
 
-> Cisco employees can find licensing options and guidance [here](https://wwwin-github.cisco.com/eckelcu/DevNet-Code-Exchange/blob/master/GitHubUsage.md#licensing-guidance).
+> Cisco employees can find licensing options and guidance [here](https://wwwin-github.cisco.com/DevNet/DevNet-Code-Exchange/blob/master/GitHubUsage.md#licensing-guidance).
 
 Once you have determined which license is appropriate, GitHub provides functionality that makes it easy to add a LICENSE file to a GitHub repo, either when creating a new repo or by adding to an existing repo.
 
 When creating a repo through the GitHub UI, you can click on *Add a license* and select from a set of [OSI approved open source licenses](https://opensource.org/licenses). See [detailed instructions](https://help.github.com/articles/licensing-a-repository/#applying-a-license-to-a-repository-with-an-existing-license).
 
-Once a repo has been created, you can easily add a LICENSE file through the GitHub UI at any time. Simply select *Create New File*, type *LICENSE* into the filename box, and you will be given the option to select from a set of common open source licenses. See [detailed instructions](https://help.github.com/articles/adding-a-license-to-a-repository/).
+Once a repo has been created, you can easily add a LICENSE file through the GitHub UI at any time. Simply select *Create New File*, type *LICENSE* into the filename box, and you will be given the option to select from a set of common open source licenses. See [detailed instructions](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository).
 
 Once you have created the LICENSE file, be sure to update/replace any templated fields with appropriate information, including the Copyright. For example, the [3-Clause BSD license template](https://opensource.org/licenses/BSD-3-Clause) has the following copyright notice:
 
