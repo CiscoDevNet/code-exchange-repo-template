@@ -23,7 +23,7 @@ IMAGE
 
 # Use Case (optional)
 
-Describe the use case for Exchange entries here. DevNet Automation Exchange provides shared code repositories for gathering information from your network, performing audits, activating policy changes, or managing applications, users, or devices. This file serves as a template to collect related links for Automation Exchange submissions.
+Describe the use case for Exchange entries here when you want to describe an automation use case for gathering information from your network, performing audits, activating policy changes, or managing applications, users, or devices. Summarize the problem statement and solution with outcomes, benefits, and metrics in this section. You can also talk about challenges you had to overcome as part of the solution, and optional ideas you have in mind that could further extend your solution. 
 
 **Sample:**
 
