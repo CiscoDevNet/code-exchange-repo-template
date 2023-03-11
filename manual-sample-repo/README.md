@@ -174,9 +174,9 @@ This code is licensed under the BSD 3-Clause License. See [LICENSE](./LICENSE) f
 
 Some licenses, such as Apache 2.0 and GPL v3, do not include a copyright notice in the [LICENSE](./LICENSE) itself. In such cases, a NOTICE file is a common place to include a copyright notice. For a very simple example, see [NOTICE](./NOTICE). 
 
-In the event you make use of 3rd party code, it is required by some licenses, and a good practice in all cases, to provide attribution for all such 3rd party code in your NOTICE file. For a great example, see [https://github.com/cisco/ChezScheme/blob/master/NOTICE](https://github.com/cisco/ChezScheme/blob/master/NOTICE).  
+In the event you make use of 3rd party code, it is required by some licenses, and a good practice in all cases, to provide attribution for all such 3rd party code in your NOTICE file. For a great example, see [https://github.com/cisco/ChezScheme/blob/main/NOTICE](https://github.com/cisco/ChezScheme/blob/main/NOTICE).  
 
-[More about open-source licenses](https://github.com/CiscoDevNet/code-exchange-repo-template/blob/master/manual-sample-repo/open-source_license_guide.md)
+[More about open-source licenses](https://github.com/CiscoDevNet/code-exchange-repo-template/blob/main/manual-sample-repo/open-source_license_guide.md)
 
 ----
 
@@ -186,13 +186,13 @@ In the event you make use of 3rd party code, it is required by some licenses, an
 
 ### Good practices
 
-1. Manage sensitive data for scripts. For example, store passwords/API keys and other sensitive data in env.py or parse it as arguments. In Python, you can use [ConfigParser](https://docs.python.org/3/library/configparser.html) for applications and programs: encrypt sensitive data in your database.
-2. Include in Installation section how to run your script for different OS like Windows/macOS/Linux.
-3. Print usage if you run script or program without any input data (support -h -help flags).
-4. Catch an error and print useful information in console and interface.
+1. Manage sensitive data for scripts. For example, store passwords/API keys and other sensitive data in `env.py` or parse them as arguments. In Python, you can use [ConfigParser](https://docs.python.org/3/library/configparser.html) for applications and programs to encrypt sensitive data in your database.
+2. Include in the Installation section how to run your script for different OS like Windows/macOS/Linux.
+3. Print usage if you run the script or program without any input data (support -h -help flags).
+4. Catch an error and print useful information in the console and interface.
 5. Add error management to handle if users miss some parameters or add them in the wrong format.
-6. Add links for resources where users can test code/app. For example, add links DevNet sandboxs (Always-on or reservable). You can find a list of all available sandboxes here [https://devnetsandbox.cisco.com/RM/Topology](https://devnetsandbox.cisco.com/RM/Topology).
-7. Add links where users can download and how to install additional soft/app/libraries that are needed to run your code. For example, installer for Python, node, and so on. 
+6. Add links for resources where users can test code/app. For example, add links DevNet sandboxes (Always-on or reservable). You can find a list of all available sandboxes here [https://devnetsandbox.cisco.com/RM/Topology](https://devnetsandbox.cisco.com/RM/Topology).
+7. Add links where users can download and how to install additional soft/app/libraries that are needed to run your code. For example, an installer for Python, node, and so on. 
 8. Add a NOTICE file with copyright if you use GPLv3 or Apache 2.0 license ([sample NOTICE file](https://github.com/CiscoDevNet/opendaylight-sample-apps/blob/master/NOTICE)).
 9. Dockerize app or part of an app like server/client.
 10. At the top of the `Readme.md` file add a hash symbol and the full use case name to create a useful Readme title. As an example, write `# Devicebanner, updates the banner motd on a network device` instead of just 'devicebanner'. 
@@ -200,7 +200,7 @@ In the event you make use of 3rd party code, it is required by some licenses, an
 12. Use [Scorecard](https://github.com/ossf/scorecard) as an easy way to judge whether dependencies in your open source project are safe.
 
  ### Bad practices
-1. Use bad quality screenshots.
-3. Users need to rename some files like variables_template.py.
+1. Use low quality screenshots.
+3. Users need to rename some files like `variables_template.py`.
 4. Users need to include credentials in source files.
 5. Don’t describe in which format users need to type or paste in file API endpoint or server IP. For example, sometimes devs write in code api_endpoint = “https://" + IP +"/", such that users need to paste the IP only without a slash at the end or a protocol specification. Please clarify this information in README.
