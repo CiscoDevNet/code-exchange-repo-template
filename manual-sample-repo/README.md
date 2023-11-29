@@ -2,6 +2,11 @@
 
 Put a meaningful, short, plain-language description of what this code is trying to accomplish, what is the business driver for implementation, and in general why it matters. Describe the problem this code addresses, how your code solves the problem, challenges you had to overcome as part of the solution, and optional ideas you have in mind that could further extend your solution.
 
+Naming convention:
+
+* Please have the title in the README match this format: "Your Repo Name" instead of "Your-Repo-Name".
+
+
 Pro tips: 
 
 * Code Exchange displays the first few content lines of your README in the tile it creates for your repo. If you enter a GitHub Description, Code Exchange uses that instead. 
